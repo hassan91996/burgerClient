@@ -1,0 +1,15 @@
+.Button{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Cancel{
+color: red;
+}
+
+.Continuo{
+color: green
+}

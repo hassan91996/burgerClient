@@ -1,0 +1,37 @@
+.Burger{
+    width:250px;
+    height: 250px;
+    min-width: 250px;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media  (min-width: 600px) {
+    .Burger{
+        width: 400px;
+        height: 300px
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  (min-width: 768px) {
+    .Burger{
+        width: 500px;
+        height: 400px
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  (min-width: 992px) {
+    .Burger{
+        width: 600px;
+        height: 400px
+    }
+
+}
+

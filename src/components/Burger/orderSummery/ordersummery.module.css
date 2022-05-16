@@ -1,0 +1,33 @@
+.OrederSummery{
+    padding:20px
+}
+
+.OrederSummery ul{
+   margin-left:0;
+}
+
+.OrederSummery p{
+ text-align: left;
+ font-weight: 600
+}
+
+.OrederSummery ul li{
+    padding: 0;
+    margin: 0;
+     text-align: left;   
+}
+
+.OrederSummery button{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 800
+}
+
+.Cancel{
+color: red;
+}
+
+.Continuo{
+color: green
+}

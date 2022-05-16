@@ -1,0 +1,31 @@
+.control{
+margin: 5px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Lable{
+    font-weight: bold;
+    font-size: 16px;
+     padding: 5px;
+     margin: 0 5px;
+     width: 80px;
+     text-align: left
+}
+
+.control button {
+   font-weight: bold;
+   font-size: 16px;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    background-color: #D39952;
+   color: white;
+}
+.control button:disabled{
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
